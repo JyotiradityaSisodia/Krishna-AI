@@ -1,5 +1,9 @@
 # Krishna — Personal AI Assistant
 
+<p align="center">
+  <img src="assets/krishna-logo.png" alt="Krishna AI Logo" width="220">
+</p>
+
 **A modular, voice-enabled personal AI assistant built to think, assist, research and execute tasks.**
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
