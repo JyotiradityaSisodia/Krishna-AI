@@ -15,6 +15,15 @@
 
 ## Overview
 
+## Development Roadmap
+
+Krishna is an actively evolving project. Development progress, upcoming features, and planned improvements are tracked publicly.
+
+**[View the Krishna Development Roadmap](https://github.com/users/JyotiradityaSisodia/projects/2/views/1)**
+
+The roadmap distinguishes completed work, tasks ready for development, ongoing work, and future plans.
+
+
 **Krishna** is an experimental personal AI assistant designed to go beyond conventional chatbot interactions.
 
 The project explores how multiple AI capabilities can work together within a single assistant: language-model integration, reasoning, memory, voice interaction, research, task planning and device automation.
@@ -126,19 +135,23 @@ Krishna/
 
 ## Development Status
 
-Krishna is an ongoing personal engineering project.
+Krishna is currently in an experimental development stage.
 
-Current development priorities:
+The repository contains multiple modules exploring AI orchestration, memory management, voice interaction, research, task execution, and desktop integration. However, not every component is fully integrated, independently tested, or production-ready.
 
-- Consolidating the AI orchestration architecture.
-- Improving reliability and error handling.
-- Integrating memory and reasoning more consistently.
-- Improving voice interaction.
-- Strengthening the desktop experience.
-- Making task execution safer and more reliable.
-- Improving documentation, testing and installation.
+### Current Priorities
 
-The project is experimental and is not yet intended for production deployment.
+- Consolidating the AI architecture and backend selection.
+- Improving reliability and consistency across modules.
+- Refining voice interaction and memory management.
+- Strengthening execution safeguards and error handling.
+- Standardizing installation and configuration.
+- Expanding testing and technical documentation.
+
+Development progress is tracked through the [public project roadmap](https://github.com/users/JyotiradityaSisodia/projects/2/views/1).
+
+**Note:** Krishna is an experimental personal AI assistant and is not currently intended for production use.
+
 
 ## Security
 
