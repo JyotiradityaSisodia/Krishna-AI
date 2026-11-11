@@ -54,3 +54,6 @@ sandbox/
 
 # Local configuration
 .env
+android/platform-tools/
+android/scrcpy/
+/desktop/python
