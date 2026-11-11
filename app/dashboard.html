@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Krishna</title>
+</head>
+
+<body>
+    <h1>Krishna AI</h1>
+
+    <textarea id="msg" rows="5" cols="50"></textarea><br>
+    <button onclick="send()">Send</button>
+
+    <pre id="output"></pre>
+
+    <script>
+        async function send() {
+            let msg = document.getElementById("msg").value;
+            let res = await fetch("/chat", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ message: msg })
+            });
+            let data = await res.json();
+            document.getElementById("output").innerText = data.reply;
+        }
+    </script>
+
+</body>
+
+</html>

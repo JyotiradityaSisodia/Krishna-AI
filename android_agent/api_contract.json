@@ -1,0 +1,19 @@
+{
+    "device_type": "android",
+    "supported_commands": [
+        "ping",
+        "open_app",
+        "show_toast",
+        "speak_text",
+        "open_url"
+    ],
+    "future_commands": [
+        "tap_text",
+        "tap_id",
+        "scroll",
+        "read_current_screen",
+        "send_whatsapp",
+        "order_food",
+        "call_contact"
+    ]
+}
